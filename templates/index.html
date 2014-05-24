@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <ul>
+      {% for name, id in videos %}
+      <li><a href="http://youtube.com/watch?v={{id}}">{{name}}</a></li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
